@@ -33,9 +33,9 @@ p {
 }
 #footer {
     width: 100vw;
-    height: 7.5vw;
+    height: 3.25vw;
     position: relative;
-    background-color: black;
+    background-color: rgb(50,50,50);
 }
 /* element formatting here */
 /*top */
@@ -146,4 +146,10 @@ p {
     margin-left: 37.5vw;
     margin-top: 5vw;
     border: 1vw solid black;
+}
+#footertitle {
+    text-align: center;
+    color: white;
+    font-size: 1.25vw;
+    padding-top: 1vw;
 }
