@@ -1,0 +1,136 @@
+/* utility formatting below */
+body {
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-family: helvetica neue;
+}
+/* page formatting here*/
+#headbar {
+    background-color: white;
+    height: 6vw;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    border-bottom: solid 0.1vw lightgray;
+}
+#invisdiv {
+    height: 6vw;
+    width: 100vw;
+}
+#pripage {
+    background-color: #f2f2f2;
+    height: 55vw;
+    width: 100vw;
+    position: relative;
+    border-bottom: 0.25vw solid lightgray;
+}
+#rentalpage {
+    width: 100vw;
+    height: 60vw;
+    position: relative;
+}
+/* element formatting here */
+/*top */
+#logotop {
+    width: 2%;
+    display: inline;
+    margin-left: 15vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#titletop {
+    color: orangered;
+    font-size: 2vw;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 17.5vw;
+}
+#subjects {
+    color: white;
+    width: 6.5vw;
+    height: 3vw;
+    font-size: 1vw;
+    background-color: orangered;
+    border: none;
+    border-radius: 0.5vw;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 27.5vw;
+    cursor: pointer;
+}
+#login {
+    color: black;
+    font-size: 1.25vw;
+    background-color: white;
+    border: none;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+    margin-left: 75vw;
+    cursor: pointer;
+}
+#signup {
+    color: black;
+    font-size: 1.25vw;
+    background-color: white;
+    border: none;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 85vw;
+    cursor: pointer;
+}
+/* page1 */
+#title {
+    padding-top: 7.5vw;
+    font-size: 2.75vw;
+    letter-spacing:0.1vw;
+}
+#subtitle {
+    padding-top: 2vw;
+    font-size: 1.75vw;
+    color: gray;
+    font-weight:  300;
+    line-height: 2.5vw;
+}
+#subjectgrid {
+    margin-left: 35vw;
+    position: relative;
+    width: 30vw;
+    height: 18.75vw;
+    border-radius: 2vw;
+    margin-top: 4vw;
+}
+/*page2*/
+#rentaltitle {
+    color: gray;
+    font-size: 1vw;
+    padding-top: 5vw;
+}
+#rentalpunchline {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+#rentalexplanation {
+    font-size: 1.5vw;
+    padding-top: 1.5vw;
+    color: RGB(80,80,80);
+    line-height: 2.5vw;
+    font-weight: 300;
+    letter-spacing: 0.0625vw;
+}
