@@ -31,6 +31,12 @@ p {
     height: 60vw;
     position: relative;
 }
+#footer {
+    width: 100vw;
+    height: 7.5vw;
+    position: relative;
+    background-color: black;
+}
 /* element formatting here */
 /*top */
 #logotop {
@@ -133,4 +139,11 @@ p {
     line-height: 2.5vw;
     font-weight: 300;
     letter-spacing: 0.0625vw;
+}
+#substitute {
+    width: 25vw;
+    height: 15vw;
+    margin-left: 37.5vw;
+    margin-top: 5vw;
+    border: 1vw solid black;
 }
