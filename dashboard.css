@@ -1,0 +1,56 @@
+/*utility formatting*/
+body {
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-family: helvetica;
+}
+a {
+    margin: 0;
+    font-family: helvetica;
+}
+/*header formatting*/
+#header {
+    width: 100vw;
+    height: 6vw;
+    background-color: white;
+    position: relative;
+    border-bottom: solid 0.1vw lightgray;
+}
+#logo {
+    height: 3vw;
+    margin-top: 1.5vw;
+    margin-left: 7.5vw;
+    position: absolute;
+}
+#title {
+    font-size: 1.75vw;
+    margin-top: 2.125vw;
+    margin-left: 10vw;
+    position: absolute;
+}
+
+/*sidebar formatting*/
+#leftside {
+    float: left;
+    background-color: RGB(50,50,50);
+    width: 20vw;
+    height: 50vw;
+    display: inline-block;
+}
+#courses {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-top: 2vw;
+    font-size: 1.25vw;
+}
+/*projects formatting*/
+#projects {
+    float: left;
+    display: inline-block;
+    background-color: rgb(220,220,220);
+    width: 80vw;
+    height: 50vw;
+}
