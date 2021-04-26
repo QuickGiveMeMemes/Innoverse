@@ -5,9 +5,9 @@ function createModal() {
 function closeModal() {
     document.getElementById('modalbackground').style.display="none";
 }
-document.getElementById('newproject').addEventListener('click',e=>{createModal()});
-document.getElementById('closemodal').addEventListener('click',e=>{closeModal()});
-document.getElementById('modalbackground').addEventListener('click',e=>{closeModal()});
+document.getElementById('newproject').addEventListener('click',createModal());
+document.getElementById('closemodal').addEventListener('click',closeModal());
+document.getElementById('modalbackground').addEventListener('click',closeModal());
 
 //have rowbox which is a counter for boxes on each row, max 4 boxes on each row max 8 projects, indexes store all info
 function findSubjects(subjectarray) {
@@ -35,7 +35,7 @@ function addNewProject(row1,row2) {
     }
     //stuff will go here later
 }
-document.getElementById('newprojectbutton').addEventListener('click',e=>{addNewProject(row1,row2)});
+document.getElementById('newprojectbutton').addEventListener('click',addNewProject(row1,row2));
 
 
 
