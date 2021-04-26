@@ -100,3 +100,53 @@ a {
     position: absolute;
     margin-left: 20vw;
 }
+/*modAl*/
+#modalbackground {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+#modal {
+    position: fixed;
+    z-index: 999999;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 30vw;
+    margin-top: 5vw;
+    background-color: rgb(245,245,245);
+    border-radius: 1vw;
+}
+#closemodal {
+    background: none;
+    border: none;
+    margin-top: 0.5vw;
+    margin-left: 37.5vw;
+    cursor: pointer;
+}
+#newprojecttitle {
+    padding-top: 2.5vw;
+    font-size: 2vw;
+}
+#projtitletext {
+    font-size: 1.5vw;
+    display: inline-block;
+    margin-left: 11.25vw;
+    margin-top: 2.5vw;
+}
+#projtitle {
+    border: none;
+    height: 1.5vw;
+    width: 10vw;
+    border-radius: 0.2vw;
+}
+#subject {
+    border: none;
+    height: 1.5vw;
+    border-radius: 0.2vw;
+    margin-top: 2vw;
+}
