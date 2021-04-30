@@ -118,8 +118,8 @@ a {
     height: 40vw;
     margin-left: 30vw;
     margin-top: 5vw;
-    background-color: rgb(245,245,245);
     border-radius: 1vw;
+    background-color: white;
 }
 #closemodal {
     background: none;
@@ -128,9 +128,17 @@ a {
     margin-left: 37.5vw;
     cursor: pointer;
 }
+#topbar {
+    background-color: orangered;
+    height:6vw;
+    width: 40vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
 #newprojecttitle {
-    padding-top: 2.5vw;
+    padding-top: 0vw;
     font-size: 2vw;
+    color: white;
 }
 #projtitletext {
     font-size: 1.5vw;
@@ -140,13 +148,51 @@ a {
 }
 #projtitle {
     border: none;
-    height: 1.5vw;
+    height: 2vw;
     width: 10vw;
     border-radius: 0.2vw;
+    background-color: rgb(245,245,245);
+}
+#subjectchoose {
+    font-size: 1.5vw;
+    display: inline-block;
 }
 #subject {
     border: none;
-    height: 1.5vw;
+    height: 2vw;
     border-radius: 0.2vw;
     margin-top: 2vw;
+    font-size: 1vw;
+    background-color: rgb(245,245,245);
+}
+#projdescription {
+    position: absolute;
+    font-size: 1.5vw;
+    margin-top: 2.5vw;
+    margin-left: 4vw;
+    
+}
+#projdesc {
+    position: absolute;
+    resize: none;
+    border: none;
+    background-color: rgb(245,245,245);
+    height: 10vw;
+    width: 20vw;
+    margin-left: 17.5vw;
+    margin-top: 2.5vw;
+    border-radius: 0.2vw;
+}
+#submitbutton {
+    color: white;
+    background-color: lightgreen;
+    width: 12.5vw;
+    height: 4vw;
+    font-size: 1.25vw;
+    border: none;
+    border-radius: 0.5vw;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 17.5vw;
 }
