@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    overflow-x: none;
+}
+p {
+    font-family: helvetica;
+}
+#background {
+    background-color: rgb(245,245,245);
+    width: 100vw;
+    height: 70vw;
+}
+#mainsquare {
+    width: 35vw;
+    height: 45vw;
+    background-color: white;
+    z-index: 2;
+    border-radius: 2vw;
+    margin-left: 32.5vw;
+    margin-top: 10vw;
+    position: absolute;
+}
+#picture {
+    width: 1.75vw;
+    height: auto;
+    margin-top: 5vw;
+}
+#title {
+    font-size: 2vw;
+}
+#usernametext {
+    display: inline-block;
+    font-size: 1.5vw;
+}
+#passwordtext {
+    display: inline-block;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+#emailtext {
+    display: inline-block;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+.textbox {
+    display: inline-block;
+    border: 0.1vw solid darkgray;
+    border-radius: 0.5vw;
+    height: 1.5vw;
+}
