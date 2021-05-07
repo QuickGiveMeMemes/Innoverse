@@ -28,23 +28,33 @@ p {
 #title {
     font-size: 2vw;
 }
-#usernametext {
-    display: inline-block;
-    font-size: 1.5vw;
-}
-#passwordtext {
-    display: inline-block;
-    font-size: 1.5vw;
-    margin-top: 3vw;
-}
-#emailtext {
-    display: inline-block;
-    font-size: 1.5vw;
-    margin-top: 3vw;
-}
+
 .textbox {
     display: inline-block;
     border: 0.1vw solid darkgray;
-    border-radius: 0.5vw;
-    height: 1.5vw;
+    height: 3vw;
+    margin-bottom: 4vw;
+    width:18vw;
+    padding-left:1vw;
+}
+
+#signup {
+    border: none;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 50vw;
+    background-color: orangered;
+    color: white;
+    -webkit-transition: color 0.2s;
+}
+
+#signup:hover, #signup:active {
+    background-color: #ff5b1f;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+placeholder{
+    padding-left:1vw;
 }
