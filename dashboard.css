@@ -114,9 +114,9 @@ a {
 #modal {
     position: fixed;
     z-index: 999999;
-    width: 40vw;
+    width: 35vw;
     height: 40vw;
-    margin-left: 30vw;
+    margin-left: 32.5vw;
     margin-top: 5vw;
     border-radius: 1vw;
     background-color: white;
@@ -125,74 +125,51 @@ a {
     background: none;
     border: none;
     margin-top: 0.5vw;
-    margin-left: 37.5vw;
+    margin-left: 32.5vw;
     cursor: pointer;
-}
-#topbar {
-    background-color: orangered;
-    height:6vw;
-    width: 40vw;
-    border-top-left-radius: 1vw;
-    border-top-right-radius: 1vw;
 }
 #newprojecttitle {
     padding-top: 0vw;
     font-size: 2vw;
-    color: white;
-}
-#projtitletext {
-    font-size: 1.5vw;
-    display: inline-block;
-    margin-left: 11.25vw;
-    margin-top: 2.5vw;
+    margin-bottom: 4vw;
 }
 #projtitle {
-    border: none;
-    height: 2vw;
-    width: 10vw;
-    border-radius: 0.2vw;
-    background-color: rgb(245,245,245);
+    display: inline-block;
+    border: 0.1vw solid darkgray;
+    height: 3vw;
+    margin-bottom: 3vw;
+    width:18vw;
 }
 #subjectchoose {
     font-size: 1.5vw;
     display: inline-block;
 }
 #subject {
-    border: none;
-    height: 2vw;
-    border-radius: 0.2vw;
-    margin-top: 2vw;
-    font-size: 1vw;
-    background-color: rgb(245,245,245);
-}
-#projdescription {
-    position: absolute;
-    font-size: 1.5vw;
-    margin-top: 2.5vw;
-    margin-left: 4vw;
-    
+    display: inline-block;
+    border: 0.1vw solid darkgray;
+    height: 3vw;
+    margin-bottom: 3vw;
+    width:18vw;
 }
 #projdesc {
-    position: absolute;
+    display: inline-block;
+    border: 0.1vw solid darkgray;
+    height: 8vw;
+    margin-bottom: 0vw;
+    width:18vw;
     resize: none;
-    border: none;
-    background-color: rgb(245,245,245);
-    height: 10vw;
-    width: 20vw;
-    margin-left: 17.5vw;
-    margin-top: 2.5vw;
-    border-radius: 0.2vw;
+    font-family: helvetica;
 }
 #submitbutton {
     color: white;
-    background-color: lightgreen;
+    background-color: orangered;
     width: 12.5vw;
-    height: 4vw;
-    font-size: 1.25vw;
+    height: 3vw;
+    font-size: 1vw;
     border: none;
-    border-radius: 0.5vw;
+    border-radius: 1.5vw;
     display: inline;
     text-align: center;
     cursor: pointer;
-    margin-top: 17.5vw;
+    margin-top: 2.5vw;
 }
