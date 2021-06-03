@@ -3,12 +3,12 @@
     <head>
         <title>Innoverse-Courses</title>
         <link rel=stylesheet href=coursepage.css>
+        <link rel=icon href=Logo.png>
     </head>
     <body>
         <div id = headbar>
             <img src = Logo.png alt = "logo" id = "logotop">
             <p id = "titletop">Innoverse</p>
-            <input type = "button" id = "subjects" onclick = "location.href='https://google.com';" value = "Subjects">
             <input type = "button" id = "login" onclick ="location.href='https://google.com';" value = "Log In">
             <input type = "button" id = "signup" onclick ="location.href='https://google.com';" value = "Sign Up">
         </div>
@@ -17,15 +17,33 @@
         </div>
         <div id=starter>
             <center><p id=title>Courses</p></center>
-            <center><p id=description>Innoverse prides itself on offering a wide variety of courses, so anyone can come here to learn.</p></center>
+            <center><p id=description>Innoverse offers a wide variety of courses, so anyone can come to learn.</p></center>
         </div>
         <div id=body>
-            <div class=box id=firstbox>
-                <div class=topbar>
-                    <center><p class=title>Baking</p></center>
+            <div id=grid>
+                <div id=row1>
+                    <div class=box>
+                        <div class=topbar>
+                            <center><p class=title>Baking</p></center>
+                        </div>
+                        <img src=bakingimage.png class=boximage>
+                        <center><p class=desc>our baking course is very good and stuff yes mmmm very good this text will be changed later</p></center>
+                    </div>
+                    <div class=box>
+                        <div class=topbar>
+                            <center><p class=title>UI/Front-end design</p></center>
+                        </div>
+                            <img src=front-end.png class=boximage>
+                        <center><p class=desc>our coding course is very good and stuff yes mmmm very good this text will be changed later</p></center>
+                    </div>
+                    <div class=box>
+                        <div class=topbar>
+                            <center><p class=title>Baking</p></center>
+                        </div>
+                        <img src=bakingimage.png class=boximage>
+                        <center><p class=desc>our baking course is very good and stuff yes mmmm very good this text will be changed later</p></center>
+                    </div>
                 </div>
-                <img src=bakingimage.png class=boximage>
-                <center><p class=desc>our baking course is very good and stuff yes mmmm very good this text will be changed later</p></center>
             </div>
         </div>
     </body>
