@@ -6,6 +6,7 @@ function addNewUser() {
         alert('One/Some of these input boxes are empty');
     } else {
         var newUserArray={'username':username,'password':password,'email':email};
+        localStorage.setItem('signedIn','True')
         localStorage.setItem('user',JSON.stringify(newUserArray));
         window.location='dashboard.html'
     }
