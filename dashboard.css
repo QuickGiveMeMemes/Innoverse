@@ -100,6 +100,10 @@ a {
     position: absolute;
     margin-left: 20vw;
 }
+#projectgrid {
+    display: flex;
+}
+
 /*modAl*/
 #modalbackground {
     display: none;
