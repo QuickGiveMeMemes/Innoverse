@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+p {
+    font-family: helvetica;
+}
+#maintext {
+    padding-top: 10vw;
+}
+#button {
+    border: none;
+    background-color: orangered;
+    width: 8vw;
+    height: 4vw;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1vw;
+}

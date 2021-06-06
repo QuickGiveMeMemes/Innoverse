@@ -48,8 +48,6 @@ a {
     margin-left: 30.5vw;
     cursor: pointer
 }
-
-#newproject
 #logout {
     color: black;
     font-size: 1.25vw;
@@ -94,17 +92,6 @@ a {
     background-color: RGB(75,75,75);
 }
 /*projects formatting*/
-#projects {
-    display: inline-block;
-    background-color: rgb(240,240,240);
-    width: 80vw;
-    height: 50vw;
-    position: absolute;
-    margin-left: 20vw;
-}
-#projectgrid {
-    display: flex;
-}
 
 /*modAl*/
 #modalbackground {
