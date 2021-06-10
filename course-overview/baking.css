@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+p {
+    font-family: helvetica;
+    margin: 0;
+}
+div {
+    margin:0;
+}
+label {
+    font-family: helvetica;
+}
+#headbar {
+    background-color: white;
+    height: 6vw;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    border-bottom: solid 0.1vw lightgray;
+}
+#logotop {
+    width: 2%;
+    display: inline;
+    margin-left: 15vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#titletop {
+    font-size: 2vw;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    margin-top:2vw;
+    margin-left: 17.5vw;
+}
+#login {
+    color: black;
+    font-size: 1.25vw;
+    background-color: white;
+    border: none;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+    margin-left: 75vw;
+    cursor: pointer;
+}
+#signup {
+    color: black;
+    font-size: 1.25vw;
+    background-color: white;
+    border: none;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 85vw;
+    cursor: pointer;
+}
+#welcome {
+    color: black;
+    font-size: 1.25vw;
+    background-color: white;
+    border: none;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 65vw;
+}
+#invis {
+    width: 100vw;
+    height: 6vw;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5vw;
+}
+#images {
+    width: 60vw;
+    height: 35vw;
+    background-color: rgb(245,245,245);
+    border-radius: 0.5vw;
+    margin-left: 2.5vw;
+}
+#cost {
+    height: 35vw;
+    margin-left: 5vw;
+    width: 25vw;
+    border: 0.2px solid rgb(220,220,220)
+}
+#shoppingtitle {
+    font-size: 1.75vw;
+    margin-top: 2vw;
+}
+#options {
+    display: flex;
+    width: 25vw;
+    height: 20vw;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.desc {
+    font-size: 1vw;
+    width: 15vw;
+    display: block;
+    color: rgb(180,180,180)
+}
+#buybutton {
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 9vw;
+    height: 3vw;
+    border-radius: 5vw;
+    margin-top: 4vw;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Innoverse-Course Overview-Baking</title>
+        <link rel=stylesheet href=baking.css>
+        <link rel=icon href=Logo.png>
+    </head>
+    <body>
+        <div id = headbar>
+            <img src = Logo.png alt = "logo" id = "logotop">
+            <p id = "titletop">Innoverse</p>
+            <input type = "button" id = "login" onclick ="window.location='../login.html';" value = "Log In">
+            <input type = "button" id = "signup" onclick ="window.location='../signup.html';" value = "Sign Up">
+        </div>
+        <div id=invis>
+            <p> </p>
+        </div>
+        <div id=main>
+            <div id=images>
+                <p>placeholdder</p>
+            </div>
+            <div id=cost>
+                <center><p id=shoppingtitle>Baking Course</p></center>
+                <div id=options>
+                    <center><input type='radio' id=normal class=op name=editionselection>
+                    <label for="normal">Regular-$9.99 <br> <span class=desc>The regular edition includes all base content, such as preset projects, access to the Innoverse Database, and equipment rentals.</span></label></center>
+                    <center><input type='radio' id=better class=op name=editionselection>
+                    <label for="better">Premium-$11.99 <br> <span class=desc>The premium edition includes bonus content, such as extra project templates.</span></label></center>
+                </div>
+                <center><button id=buybutton>Continue</button></center>
+            </div>
+        </div>
+    </body>
+    <script src='../signedInChange.js'></script>
+</html>
