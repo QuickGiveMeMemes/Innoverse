@@ -8,8 +8,9 @@ function login() {
         anyWrong = true;
     }
     if (anyWrong==false) {
+        var redirectLoc=localStorage.getItem('currentpage')
         localStorage.setItem('signedIn','True');
-        window.location='dashboard.html';
+        window.location=redirectLoc;
     } else {
         alert('Wrong Username or Password or Email');
     }

@@ -85,18 +85,17 @@ label {
     flex-direction: row;
     margin-top: 2.5vw;
 }
-#images {
+#descdiv {
     width: 60vw;
     height: 35vw;
-    background-color: rgb(245,245,245);
-    border-radius: 0.5vw;
+    border: 0.1vw solid rgb(220,220,220);
     margin-left: 2.5vw;
 }
 #cost {
     height: 35vw;
     margin-left: 5vw;
     width: 25vw;
-    border: 0.2px solid rgb(220,220,220)
+    border: 0.1vw solid rgb(220,220,220)
 }
 #shoppingtitle {
     font-size: 1.75vw;
@@ -123,4 +122,8 @@ label {
     height: 3vw;
     border-radius: 5vw;
     margin-top: 4vw;
+}
+#desctitle {
+    padding-top: 3vw;
+    font-size: 2vw;
 }

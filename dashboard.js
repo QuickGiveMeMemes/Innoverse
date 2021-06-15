@@ -8,6 +8,7 @@ function closeModal() {
 }
 document.getElementById('newproject').addEventListener('click',e=>createModal());
 document.getElementById('closemodal').addEventListener('click',e=>closeModal());
+localStorage.setItem('currentpage','dashboard.html')
 //document.getElementById('modalbackground').addEventListener('click',e=>closeModal());
 
 //have rowbox which is a counter for boxes on each row, max 4 boxes on each row max 8 projects, indexes store all info
@@ -25,8 +26,4 @@ function findSubjects(subjectarray) {
         newoption.innerText = 'No Subjects';
         document.getElementById('subject').appendChild(newoption);
     }
-}
-
-function createProject() {
-    
 }

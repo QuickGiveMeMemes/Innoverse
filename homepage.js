@@ -1,0 +1,1 @@
+localStorage.setItem('currentpage','homepage.html')
