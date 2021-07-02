@@ -92,7 +92,56 @@ a {
     background-color: RGB(75,75,75);
 }
 /*projects formatting*/
-
+#projects {
+    width: 80vw;
+    height: 50vw;
+    float: right;
+    background-color: rgb(250,250,250);
+}
+#projectrow {
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    height: 50vw;
+}
+.projectbox {
+    width:80vw;
+    height:4vw;
+    background-color: white;
+    border:0.05vw solid lightgray;
+    border-radius: 0.5vw;
+    
+}
+.projectboxtext {
+    font-size: 1.25vw;
+    position: absolute;
+    margin-top:1.375vw;
+    margin-left: 1.375vw;
+}
+.projectboxspan {
+    color: darkgray;
+}
+.detailsbtn {
+    height: 2.5vw;
+    width: 5vw;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 1.25vw;
+    position: absolute;
+    margin-left:60vw;
+    margin-top:0.75vw;
+}
+.deletebtn {
+    height: 2.5vw;
+    width: 5vw;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 1.25vw;
+    margin-left:66vw;
+    margin-top:0.75vw;
+}
 /*modAl*/
 #modalbackground {
     display: none;
